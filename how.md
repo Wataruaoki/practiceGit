@@ -44,5 +44,15 @@ setup(name='Hello world app',
 ```
 
 buildを行うために ```python setup.py build_ext --inplace```を実行してください.
-そしてpythonのコードにおいて,```from hello import say_hello_to``` と記述すれば, 好きなようにimportした関数が使えます
+すると pythonのコードにおいて,```from hello import say_hello_to``` と記述すれば, 好きなようにimportした関数が使えます
+
+
+distutilsの代わりにsetuptoolsを用いる場合は, ```python setup.py install```の実行中におけるデフォルト動作では, 冷凍された```egg```ファイルができますが, ```pxd```ファイルと独立したパッケージとして使用しようとした場合, ```cimport```で動かないことに注意してください. このようなことを防ぐために ```setup()```において```zip_safe=False```を含めて記述する必要があります
+
+
+
+
+
+
+
 
