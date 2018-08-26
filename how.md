@@ -17,4 +17,6 @@ Cython + Distutils/setuptoolによるbuildの過程を十分に理解するた�
 [PythonモジュールのDistribution](https://docs.python.org/3/distributing/index.html)についてもっと読んでおいておくと良いでしょう.
 
 
-Cythonのbuild
+Cythonのコードをbuildする方法はいくつか存在する :
+-
+-
