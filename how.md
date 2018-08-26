@@ -18,8 +18,8 @@ Cython + Distutils/setuptoolsによるbuildの過程を十分に理解するた�
 
 
 Cythonのコードをbuildする方法はいくつか存在する :
-- Distutils/setuptools の setup.py を書く : これが通常推奨されている方法である.
-- [Pyximport](http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#pyximport)を用いる方法 - まるで`.py`ファイルであるかのようににCythonの`pyx`ファイルをimportする.(distutilsを用いてコンパイルし, バックグランドでbuildを行う)
+- Distutils/setuptools の setup.py を記述する : これが通常推奨されている方法である.
+- [Pyximport](http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#pyximport)を用いる方法 - まるで`.py`ファイルであるかのようににCythonの`.pyx`ファイルをimportする(distutilsを用いてコンパイルし, バックグランドでbuildを行う). この方法は前述のsetup.pyを記述する方法よりも簡単であるが, 柔軟な対応ができない. ゆえに, 編集ができるかのオプションが必要な場合のようなことがあれば, setup.pyを記述する必要があります
 - 
 - 
 
