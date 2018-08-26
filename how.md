@@ -52,7 +52,7 @@ distutilsの代わりにsetuptoolsを用いる場合は, ```python setup.py inst
 
 ## Using the Jupyter notebook
 
-Cythonは[Jupyter notebook](http://jupyter.org)を用いてwebブラウザ上において対話的に, 便利に使うことができます. Jupyter notebookをインストールするには, 例えば virtualenv を立ち上げて ```pip```を用います.
+Cythonは[Jupyter notebook](http://jupyter.org)を用いてwebブラウザ上において対話的に, 便利に使うことができます. [Jupyter notebook](http://jupyter.org)をインストールするには, 例えば virtualenv を立ち上げて ```pip```を用います.
 
 ```
 (venv)$ pip install jupyter
