@@ -91,8 +91,9 @@ print(a)
 ```%%cython```マジックコードについてもっと知りたい場合は次のリンクを参照してください  [Compiling with a Jupyter Notebook](http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#compiling-notebook)
 
 
+## Using the Sage notebook
 
+![aa](http://docs.cython.org/en/latest/_images/sage.png)
 
-
-
+For users of the Sage math distribution, the Sage notebook allows transparently editing and compiling Cython code simply by typing %cython at the top of a cell and evaluate it. Variables and functions defined in a Cython cell imported into the running session.
 
