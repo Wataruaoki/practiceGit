@@ -50,9 +50,16 @@ buildを行うために ```python setup.py build_ext --inplace```を実行して
 distutilsの代わりにsetuptoolsを用いる場合は, ```python setup.py install```の実行中におけるデフォルト動作では, 冷凍された```egg```ファイルができますが, ```pxd```ファイルと独立したパッケージとして使用しようとした場合, ```cimport```で動かないことに注意してください. このようなことを防ぐために ```setup()```において```zip_safe=False```を含めて記述する必要があります
 
 
+## Using the Jupyter notebook
+
+CythonはJupyter notebookを用いてwebブラウザ上において対話的に, 便利に使うことができます. Jupyter notebookをインストールするには, 例えば virtualenv を立ち上げて ```pip```を用います.
+
+```
+(venv)$ pip install jupyter
+(venv)$ jupyter notebook
+```
 
 
-
-
+Cythonのコンパイルのサポートできるために
 
 
