@@ -1,5 +1,9 @@
 [cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html) を理解するための個人的メモ
 
+英語及びmarkdownの練習も兼ねているのでそこはご承知を... 以下からが内容
+
+***
+
 ## Building Cython code
 
 pythonのコードとは異なり, cythonのコードはコンパイルする必要があります. これには2つの段階があります.
@@ -10,4 +14,4 @@ pythonのコードとは異なり, cythonのコードはコンパイルする必
 Distutils や setuptoolがこの役割を担っている. けれども, ある場合においてはCythonはこれらを呼び出すことができる.
 
 Cython + Distutils/setuptoolによるビルドの過程を十分に理解するために, 
-[Pythonモジュールのディストリビューション](https://docs.python.org/3/distributing/index.html)についてもっと読んでおいておくと良いでしょう.
+[PythonモジュールのDistribution](https://docs.python.org/3/distributing/index.html)についてもっと読んでおいておくと良いでしょう.
