@@ -1,7 +1,1 @@
-N
-
-O
-
-N
-
-E
+[tex:{ax + by + cz}]
