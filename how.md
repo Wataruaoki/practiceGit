@@ -26,9 +26,24 @@ Cythonのコードをbuildする方法 :
 
 
 ## Building a Cython module using distutils
-```hello.pyx```ファイルの中の簡単な"hello world"スクリプトを想像してください
+```hello.pyx```ファイルに書かれた簡単な"hello world"スクリプトをイメージしてください
 
 ```python
 def say_hello_to(name):
     print("Hello %s!" % name)
 ```
+
+次に対応する```setup.py```スクリプトについて
+
+```python
+from distutils.core import setup
+from Cython.Build import cythonize
+
+setup(name='Hello world app',
+      ext_modules=cythonize("hello.pyx"))
+```
+
+buildを行うために ```python setup.py build_ext --inplace```を実行してください.
+そして
+
+
