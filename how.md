@@ -1,6 +1,6 @@
 #### [cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html) を理解するための個人的メモ1 
 
-英語及びmarkdownの練習も兼ねているのでそこはご承知を... 以下からが内容
+英語及びmarkdownの練習も兼ねているのでそこはご承知を...  また, 全ては[cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html)の丸パクリです;  以下からが内容
 
 ***
 
@@ -95,5 +95,5 @@ print(a)
 
 ![aa](http://docs.cython.org/en/latest/_images/sage.png)
 
-For users of the Sage math distribution, the Sage notebook allows transparently editing and compiling Cython code simply by typing %cython at the top of a cell and evaluate it. Variables and functions defined in a Cython cell imported into the running session.
+(略)
 
