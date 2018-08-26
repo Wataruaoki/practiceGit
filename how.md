@@ -1,6 +1,6 @@
 #### [cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html) を理解するための個人的メモ1 
 
-英語及びmarkdownの練習も兼ねているのでそこはご承知を...  また, 全ては[cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html)の丸パクリです;  以下からが内容
+英語及びmarkdownの練習も兼ねているのでそこはご承知を...  また, 全ては[cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html)の直訳です;  以下からが内容
 
 ***
 
