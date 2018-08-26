@@ -1,4 +1,4 @@
-[cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html) を理解するための個人的メモ
+[cythonのサイト](http://docs.cython.org/en/latest/src/quickstart/build.html) を理解するための個人的メモ1
 
 英語及びmarkdownの練習も兼ねているのでそこはご承知を... 以下からが内容
 
@@ -20,10 +20,5 @@ Cython + Distutils/setuptoolsによるbuildの過程を十分に理解するた�
 Cythonのコードをbuildする方法はいくつか存在する :
 - Distutils/setuptools の setup.py を記述する : これが通常推奨されている方法である.
 - [Pyximport](http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#pyximport)を用いる方法 - まるで`.py`ファイルであるかのようににCythonの`.pyx`ファイルをimportする(distutilsを用いてコンパイルし, バックグランドでbuildを行う). この方法は前述のsetup.pyを記述する方法よりも簡単であるが, 柔軟な対応ができない. ゆえに, 編集ができるかのオプションが必要な場合のようなことがあれば, setup.pyを記述する必要があります
-- 
-- 
-
-Write a distutils/setuptools setup.py. This is the normal and recommended way.
-Use Pyximport, importing Cython .pyx files as if they were .py files (using distutils to compile and build in the background). This method is easier than writing a setup.py, but is not very flexible. So you’ll need to write a setup.py if, for example, you need certain compilations options.
-Run the cython command-line utility manually to produce the .c file from the .pyx file, then manually compiling the .c file into a shared object library or DLL suitable for import from Python. (These manual steps are mostly for debugging and experimentation.)
-Use the [Jupyter] notebook or the [Sage] notebook, both of which allow Cython code inline. This is the easiest way to get started writing Cython code and running it.
+- `.pyx`ファイルを元に`.c`ファイルを作成するために手動で`cython`コマンドラインユーティリティーを実行し, そして手動で`.c`ファイルをコンパイルし, オブジェクトライブラリやPythonからimportに適したDLLを作成する.(このような手動のステップはデバックや研究が目的の場合がほとんどです)
+- Jupyter Notebook や Sage Notebookを用いる方法, どちらもCythonコードがインラインで使用可能. この方法がCythonのコードを記述して, 動かすには一番簡単な方法です.
