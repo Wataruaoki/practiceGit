@@ -77,7 +77,9 @@ for i in range(10):
 print(a)
 ```
 
-You can show Cython’s code analysis by passing the --annotate option:
+
+```--annotate```オプションを引き渡すことで Cythonコードの分析が表示できます.
+
 
 
 
