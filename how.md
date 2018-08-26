@@ -22,3 +22,13 @@ Cythonのコードをbuildする方法 :
 - [Pyximport](http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#pyximport)を用いる方法 - まるで`.py`ファイルであるかのようににCythonの`.pyx`ファイルをimportする(distutilsを用いてコンパイルし, バックグランドでbuildを行う). この方法は前述のsetup.pyを記述する方法よりも簡単であるが, 柔軟な対応ができない. ゆえに, 編集ができるかのオプションが必要な場合のようなことがあれば, setup.pyを記述する必要があります
 - `.pyx`ファイルを元に`.c`ファイルを作成するために手動で`cython`コマンドラインユーティリティーを実行し, そして手動で`.c`ファイルをコンパイルし, オブジェクトライブラリやPythonからimportに適したDLLを作成する.(このような手動のステップはデバックや研究が目的の場合がほとんどです)
 - Jupyter Notebook や Sage Notebookを用いる方法, どちらもCythonコードがインラインで使用可能. この方法がCythonのコードを記述して, 動かすには一番簡単な方法です.
+
+
+
+## Building a Cython module using distutils
+```hello.pyx```ファイルの中の簡単な"hello world"スクリプトを想像してください
+
+```python
+def say_hello_to(name):
+    print("Hello %s!" % name)
+```
