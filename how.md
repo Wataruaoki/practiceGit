@@ -60,6 +60,32 @@ CythonはJupyter notebookを用いてwebブラウザ上において対話的に,
 ```
 
 
-Cythonのコンパイルのサポートできるために
+インストールガイドにあるようにCythonをインストールして, Cythonによる拡張を読み込んめば, Cythonが編集できるようになります :
+
+```
+%load_ext Cython
+```
+
+そして, セルの先頭で```%%cython```マーカーをつけてコンパイルを行います.
+
+```python3
+%%cython
+
+cdef int a = 0
+for i in range(10):
+    a += i
+print(a)
+```
+
+You can show Cython’s code analysis by passing the --annotate option:
+
+
+
+
+
+
+
+
+
 
 
