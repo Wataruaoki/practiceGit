@@ -44,6 +44,5 @@ setup(name='Hello world app',
 ```
 
 buildを行うために ```python setup.py build_ext --inplace```を実行してください.
-そして
-
+そしてpythonのコードにおいて,```from hello import say_hello_to``` と記述すれば, 好きなようにimportした関数が使えます
 
