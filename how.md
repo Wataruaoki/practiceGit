@@ -83,7 +83,7 @@ print(a)
 
 
 
-
+```%%cython```マジックコードについてもっと知りたい場合は次のリンクを参照してください[Compiling with a Jupyter Notebook](http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#compiling-notebook)
 
 
 
