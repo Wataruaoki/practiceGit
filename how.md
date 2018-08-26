@@ -8,3 +8,6 @@ pythonのコードとは異なり, cythonのコードはコンパイルする必
 
 - コンパイルされた`.c`ファイルが, CコンパイラによりPythonから直接`import`可能な`.so`ファイル(もしくはWindowsでは`.pyd`)にコンパイルされる.
 Distutils や setuptoolがこの役割を担っている. けれども, ある場合においてはCythonはこれらを呼び出すことができる.
+
+Cython + Distutils/setuptoolによるビルドの過程を十分に理解するために, 
+[Pythonモジュールのディストリビューション](https://docs.python.org/3/distributing/index.html)についてもっと読んでおいておくと良いでしょう.
