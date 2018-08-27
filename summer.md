@@ -9,6 +9,16 @@
 - `practice.html`として以下の内容を保存する
 
 ``` html:practice.html
+<!DOCTYPE html>
+<html lang = 'ja'>
+<head>
+  <title>Go is God</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script src = a.js> </script>
+</body>
+</html>
 ```
 
 # Python3 編
