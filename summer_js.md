@@ -11,18 +11,20 @@
 
 ``` html
 <!DOCTYPE html>
-<html lang = 'ja'> <!-- ① --->
+<html lang = 'ja'>
 <head>
-  <title> タイトル名 </title> <!-- ② -->
-  <meta charset="UTF-8"> <!-- ③ -->
+  <title> タイトル名 </title> <!-- ① -->
+  <meta charset="UTF-8"> 
 </head>
 <body>
-  <script src = pr.js> </script> <!-- ④ -->
+  <script src = pr.js> </script> <!-- ② -->
 </body>
 </html>
 ```
 
-   - ④ において, `<script src = pr.js>`の部分に関して, `pr.js`の相対パスまたは絶対パスを通す.
+   - ① は表示するタイトルの名前である.
+
+   - ② において, `<script src = pr.js>`の部分に関して, `pr.js`の相対パスまたは絶対パスを通す.
    
    - `<!-- コメント -->` と`.html`ファイルに記述することでコメントができる
 
