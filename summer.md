@@ -12,11 +12,11 @@
 <!DOCTYPE html>
 <html lang = 'ja'>
 <head>
-  <title>Go is God</title>
+  <title> タイトル名 </title>
   <meta charset="UTF-8">
 </head>
 <body>
-  <script src = a.js> </script>
+  <script src = pr.js> </script>
 </body>
 </html>
 ```
