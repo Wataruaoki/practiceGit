@@ -9,18 +9,18 @@
 
 1. `practice.html`として以下の内容を保存する
 
-``` html:practice.html
-<!DOCTYPE html>
-<html lang = 'ja'>
-<head>
-  <title> タイトル名 </title> <!-- ① -->
-  <meta charset="UTF-8"> 
-</head>
-<body>
-  <script src = pr.js> </script> <!-- ② -->
-</body>
-</html>
-```
+    ``` html:practice.html
+    <!DOCTYPE html>
+    <html lang = 'ja'>
+    <head>
+      <title> タイトル名 </title> <!-- ① -->
+      <meta charset="UTF-8"> 
+    </head>
+    <body>
+      <script src = pr.js> </script> <!-- ② -->
+    </body>
+    </html>
+    ```
 
    - ① は表示するタイトルの名前である.
 
@@ -30,6 +30,4 @@
 
 
 
-~~~python3:none.py
-print(None)
-~~~
+
