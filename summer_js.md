@@ -10,13 +10,13 @@
 
 ``` html:practice.html
 <!DOCTYPE html>
-<html lang = 'ja'>
+<html lang = 'ja'> <!-- ① --->
 <head>
-  <title> タイトル名 </title> //
-  <meta charset="UTF-8">
+  <title> タイトル名 </title> <!-- ② -->
+  <meta charset="UTF-8"> <!-- ③ -->
 </head>
 <body>
-  <script src = pr.js> </script>
+  <script src = pr.js> </script> <!-- ④ -->
 </body>
 </html>
 ```
