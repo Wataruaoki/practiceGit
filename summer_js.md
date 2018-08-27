@@ -6,7 +6,7 @@
 
 
 - `.html`の名前を`practice.html`, `.js`ファイルの名前を`pr.js`として今回は扱う.
-- `practice.html`として以下の内容を保存する
+1 `practice.html`として以下の内容を保存する
 ``` html
 <!DOCTYPE html>
 <html lang = 'ja'> <!-- ① --->
