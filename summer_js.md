@@ -9,7 +9,7 @@
 
 1. `practice.html`として以下の内容を保存する
 
-``` html
+``` html:practice
 <!DOCTYPE html>
 <html lang = 'ja'>
 <head>
