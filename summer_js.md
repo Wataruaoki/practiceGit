@@ -7,7 +7,6 @@
 
 - `.html`の名前を`practice.html`, `.js`ファイルの名前を`pr.js`として今回は扱う.
 - `practice.html`として以下の内容を保存する
-
 ``` html
 <!DOCTYPE html>
 <html lang = 'ja'> <!-- ① --->
@@ -20,7 +19,6 @@
 </body>
 </html>
 ```
-
    - ④ において, `<script src = pr.js>`の部分に関して, `pr.js`の相対パスまたは絶対パスを通す.
    
    - `<!-- コメント -->` と`.html`ファイルに記述することでコメントができる
