@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html lang = 'ja'>
 <head>
-  <title> タイトル名 </title>
+  <title> タイトル名 </title> //
   <meta charset="UTF-8">
 </head>
 <body>
@@ -20,5 +20,3 @@
 </body>
 </html>
 ```
-
-# Python3 編
