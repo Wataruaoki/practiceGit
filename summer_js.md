@@ -30,3 +30,7 @@
 
 
 
+
+```ruby:kobito.rb
+puts 'The best app to log and share programming knowledge.'
+```
